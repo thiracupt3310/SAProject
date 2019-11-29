@@ -1,0 +1,63 @@
+html, body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to bottom right, aqua, whitesmoke);
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 16px;
+}
+
+form{
+    background: white;
+    width: 25%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    color: #333;
+    border-radius: 10px;
+    
+}
+form header{
+    background: rgb(94, 77, 252);
+    padding: 15px 10px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+form input{
+    display: block;
+    width: 75%;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.inputWithIcon{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    position: relative;
+}
+.inputWithIcon i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: .3s;
+}
+input:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
